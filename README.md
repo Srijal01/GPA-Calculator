@@ -13,17 +13,16 @@ A modern web application built with Next.js for calculating CGPA (Cumulative Gra
 
 ## Nepali University Grading System
 
-| Grade | Grade Point |
-|-------|-------------|
-| A+    | 4.0         |
-| A     | 3.6         |
-| B+    | 3.2         |
-| B     | 2.8         |
-| C+    | 2.4         |
-| C     | 2.0         |
-| D+    | 1.6         |
-| D     | 1.2         |
-| F     | 0.0         |
+| Grade | Grade Point |Percentage (%) |
+|-------|-------------|---------------|
+| A+    | 4.0         |90 – 100       |
+| A     | 3.6         |80 – <90       |
+| B+    | 3.2         |70 – <80       |
+| B     | 2.8         |60 – <70       |
+| C+    | 2.4         |50 – <60       |
+| C     | 2.0         |40 – <50       |
+| D+    | 1.6         |30 - <40       |
+| F     | 0.0         |< 30           |
 
 ## Getting Started
 
@@ -95,8 +94,6 @@ GPA_Calculator/
 │   │   └── page.tsx              # Home page
 │   └── utils/
 │       └── gpaCalculator.ts      # GPA calculation logic
-├── .github/
-│   └── copilot-instructions.md   # Project guidelines
 ├── package.json
 ├── tsconfig.json
 ├── tailwind.config.ts
